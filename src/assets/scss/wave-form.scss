@@ -1,0 +1,106 @@
+.wave-form-container {
+  padding: 30px 0;
+  background-color: #f7f7f7;
+  .time-span {
+    margin-left: 22px;
+    padding: 5px;
+    background-color: #edf2f7;
+    border-radius: 5px;
+  }
+
+  .wave-form {
+    max-height: 100px;
+    margin-left: 20px;
+    margin-top: 22px;
+    font-size: 19px;
+    display: flex;
+
+    .transcript-percent {
+      min-width: 120px;
+      margin-right: 20px;
+      margin-top: 8px;
+      display: block;
+
+      .first-percent {
+        color: #a82bf0;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+
+      .second-percent {
+        color: #2671eb;
+        font-weight: bold;
+      }
+    }
+
+    .first-person {
+      margin-right: 10px;
+      border-bottom: 1px solid #f1f4f6;
+      display: flex;
+    }
+
+    .second-person {
+      display: flex;
+    }
+
+    .wave {
+      display: flex;
+
+      .upper-wave {
+        border-bottom: 1px solid #f1f4f6;
+        display: flex;
+        background: repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 2px,
+          #a82bf0 0px,
+          #ccc 4px
+        );
+        min-height: 32px;
+        margin-bottom: 4px;
+      }
+
+      .lower-wave {
+        display: flex;
+        transform: translateY(40px);
+        background: repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 2px,
+          #2671eb 0px,
+          #ccc 4px
+        );
+        min-height: 32px;
+        margin-top: 8px;
+      }
+
+      .upper-wave-overlay {
+        border-bottom: 1px solid #f1f4f6;
+        display: flex;
+        transform: translateY(-37px);
+        background: repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 2px,
+          gray 0px,
+          #ccc 4px
+        );
+        min-height: 32px;
+      }
+
+      .lower-wave-overlay {
+        display: flex;
+        position: relative;
+        background: repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 2px,
+          gray 0px,
+          #ccc 4px
+        );
+        min-height: 32px;
+        margin-top: 8px;
+      }
+    }
+  }
+}

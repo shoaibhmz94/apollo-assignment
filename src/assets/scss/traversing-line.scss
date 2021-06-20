@@ -1,0 +1,17 @@
+.traversing-line{
+  height: 80px;
+  position: absolute;
+  top: 130px;
+  left: 160px;
+  cursor: pointer;
+  .moving-line {
+    border-right: 2px solid #888c8f;
+    height: 80px;
+    opacity: 0.4;
+    background-color: #d7ebfc;
+  }
+  .horizontal-line{
+    border-top: 1px solid #9a9ea1;
+    transform: translateY(-48px);
+  }
+}

@@ -1,0 +1,49 @@
+.search-transcript-container {
+  padding: 20px 0;
+  .transcript-words {
+    padding: 10px 20px;
+
+    .line-divider {
+      border-left: 1px solid #b5bdbd;
+      height: 70px;
+    }
+
+    .transcript-container {
+      display: flex;
+      min-height: 70px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      padding: 10px;
+
+      .first-person,
+      .second-person {
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .first-person {
+        color: #a82bf0 !important;
+      }
+
+      .second-person {
+        color: #2671eb !important;
+      }
+
+      .word-container {
+        font-size: 18px;
+        margin-left: 10px;
+
+        .word:hover {
+          background-color: lightblue;
+          cursor: pointer;
+          transition: 0.8s;
+        }
+      }
+    }
+
+    .share {
+      color: #6babec;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.search-input {
+  margin: 0 20px 20px 20px;
+  position: relative;
+  //max-width: 940px;
+  //width: 100%;
+  form {
+    margin-bottom: 20px;
+    //width: 100%;
+
+    .input {
+      padding: 6px 37px 5px 50px;
+      font-size: 17px;
+      border: 1px solid #94989c;
+      border-radius: 6px;
+    }
+
+    .search-icon {
+      position: absolute;
+      top: 6px;
+      left: 20px;
+      height: 20px;
+    }
+  }
+  .result {
+    margin-left: 10px;
+  }
+
+  .clear-search {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #6babec;
+  }
+}
